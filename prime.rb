@@ -1,21 +1,12 @@
-num = 9
-def prime?(num)
-  if (num==2) 
-    return true 
-      elsif ((num ** 1)%2!=0) 
-        return true
-      elsif
-        n <= 1
-        n * -1
-          return "Not a prime number"
-      else ((num ** 1)%2==0) || ((num(-1)**1)%2==0)
-        return "Not a primary number"
-      #else
-       # return false
-        
-      
-    end
-end
+def prime?(n)
+  if n <= 1
+  return false
 
-prime?(num)
+  else (2..n-1).to_a.all? do |integer|
+   n % integer != 0
+
+   end
+  end
+end
+prime?(2)
 
