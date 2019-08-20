@@ -6,6 +6,7 @@ def prime?(num)
         return true
       elsif
         n <= 1
+        n * -1
           return false
       elsif ((num ** 1)%2=0)
         return "Not a primary number"
