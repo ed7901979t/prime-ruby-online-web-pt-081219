@@ -7,8 +7,12 @@ def prime?(num)
       elsif
         n <= 1
           return false
-      else 
+      elsif ((num ** 1)%2=0)
+        return "Not a primary number"
+      else
         return false
+        
+      
     end
 end
 
