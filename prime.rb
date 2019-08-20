@@ -8,7 +8,7 @@ def prime?(num)
         n <= 1
         n * -1
           return "Not a prime number"
-      elsif ((num ** 1)%2==0) || ((num(-1)**1)%2==0))
+      elsif ((num ** 1)%2==0) || ((num(-1)**1)%2==0)
         return "Not a primary number"
       else
         return false
