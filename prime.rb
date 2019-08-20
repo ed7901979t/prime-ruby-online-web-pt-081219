@@ -1,5 +1,5 @@
 num = 9
-def primemethod(num)
+def prime?(num)
   if (num==2) 
     return true 
     elsif ((num ** 1)%2!=0)
@@ -9,5 +9,5 @@ def primemethod(num)
     end
 end
 
-primemethod(num)
+prime?(num)
 
